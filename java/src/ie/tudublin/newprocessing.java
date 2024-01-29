@@ -19,9 +19,9 @@ public class newprocessing extends PApplet{
     {
         background(255,102,150);
         stroke(255,255,255);
-        circle(180, 150, 150);
-        circle(300, 150, 150);
-        triangle(100, -200, 100, -200, 240, 100);
-        
+        circle(182, 151, 150);
+        circle(298, 151, 150);
+        triangle(135, 210, 240, 340,345,210);
+        rect(170, 120, 140, 120);   
     }
 }
