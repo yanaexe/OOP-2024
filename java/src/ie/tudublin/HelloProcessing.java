@@ -7,7 +7,7 @@ public class HelloProcessing extends PApplet
 
 	public void settings()
 	{
-		size(500, 500);
+		size(279, 328);
 	}
 
 	public void setup() {
@@ -39,7 +39,8 @@ public class HelloProcessing extends PApplet
 		strokeWeight(2);
 		stroke(c, 255, 255);
 		c = (c + 2f) % 255;
-		rect(x1, y1, x2, y2);
+		//rect(x1, y1, x2, y2);
+		image(loadImage("C:\\Users\\Anhre\\OneDrive\\Pictures\\Screenshots\\Screenshot_20230123_152603.png"),0,0);
 
 		x1 += x1dir;
 		x2 += x2dir;
