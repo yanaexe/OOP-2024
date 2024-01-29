@@ -19,12 +19,12 @@ public class HelloProcessing extends PApplet
 		y1 = random(0, height);
 		y2 = random(0, height);
 
-		float range = 5;
+		float range = 6;
 
 		x1dir = random(-range, range);
-		x2dir = random(-range, range);
+		x2dir = random(range, range);
 		y1dir = random(-range, range);
-		y2dir = random(-range, range);
+		y2dir = random(range, range);
 
 		smooth();
 		
@@ -38,8 +38,8 @@ public class HelloProcessing extends PApplet
 	{	
 		strokeWeight(2);
 		stroke(c, 255, 255);
-		c = (c + 1f) % 255;
-		line(x1, y1, x2, y2);
+		c = (c + 2f) % 255;
+		rect(x1, y1, x2, y2);
 
 		x1 += x1dir;
 		x2 += x2dir;

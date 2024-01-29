@@ -40,6 +40,14 @@ public class Main
 		m.doCatStuff();
 
 		m.helloProcessing();
+
+		animal Kim = new Dog("Kim");
+		Kim.speak();;
+
+		Kim = new cat("Kim");
+		Kim.speak();
+
+		
 	}
 	
 }

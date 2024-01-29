@@ -1,6 +1,6 @@
 package ie.tudublin;
 
-public class Dog
+public class Dog extends animal
 {
 	String name;
 	
