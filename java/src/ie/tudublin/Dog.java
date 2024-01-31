@@ -1,10 +1,6 @@
 package ie.tudublin;
 
-<<<<<<< HEAD
-public class Dog extends animal
-=======
 public class Dog extends Animal
->>>>>>> d11198558a399a55c0b988a22843b56fb9712a7c
 {
 	
 

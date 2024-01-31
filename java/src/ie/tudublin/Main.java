@@ -8,11 +8,7 @@ public class Main
 	public void helloProcessing()
 	{
 		String[] a = {"MAIN"};
-<<<<<<< HEAD
-        processing.core.PApplet.runSketch( a, new newprocessing());
-=======
         processing.core.PApplet.runSketch( a, new MyFirstProcessing());
->>>>>>> d11198558a399a55c0b988a22843b56fb9712a7c
     }
 
 	public void doDogStuff()
@@ -68,10 +64,10 @@ public class Main
 
 		m.helloProcessing();
 
-		animal Kim = new Dog("Kim");
+		Animal Kim = new Dog("Kim");
 		Kim.speak();
 
-		Kim = new cat("Kim");
+		Kim = new Cat("Kim");
 		Kim.speak();
 		
 	}
